@@ -1,8 +1,10 @@
 import requests
 
+
 # =============== #
 def add(a, b):
     return a + b
+
 
 # =============== #
 def len_joke():
@@ -21,6 +23,3 @@ def get_joke():
         joke = "No jokes"
 
     return joke
-
-
-if __name__ == "__main__":
