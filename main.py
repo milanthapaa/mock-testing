@@ -1,8 +1,10 @@
-import pprint
-
 import requests
 
+# =============== #
+def add(a, b):
+    return a + b
 
+# =============== #
 def len_joke():
     joke = get_joke()
     return len(joke)
@@ -22,4 +24,3 @@ def get_joke():
 
 
 if __name__ == "__main__":
-    print(get_joke())
